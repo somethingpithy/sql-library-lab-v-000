@@ -20,28 +20,26 @@ INSERT INTO characters (id, name, species, motto, series_id, author_id) VALUES
   (7, 'Frankie', 'mouse', NULL, 2, 2),
   (8, 'Benjy', 'mouse', NULL, 2 , 2);
 
-INSERT INTO subgenres (id, name) VALUES
-  (1, 'fantasy'),
-  (2, 'comic science fiction');
+INSERT INTO subgenres (id, name) VALUES (1, 'fantasy');
+INSERT INTO subgenres (id, name) VALUES (2, 'comic science fiction');
 
-INSERT INTO authors (id, name) VALUES
-  (1, 'Lev Grossman'),
-  (2, 'Douglas Adams');
 
-INSERT INTO character_books (id, book_id, character_id) VALUES
-  (1, 1, 1),
-  (2, 1, 2),
-  (3, 1, 4),
-  (4, 2, 1),
-  (5, 3, 1),
-  (6, 3, 2),
-  (7, 4, 5),
-  (8, 4, 6),
-  (9, 4, 7),
-  (10, 4, 8),
-  (11, 5, 5),
-  (12, 5, 6),
-  (13, 6, 5),
-  (14, 6, 6),
-  (15, 7, 5),
-  (16, 7, 6);
+INSERT INTO authors (id, name) VALUES (1, 'Lev Grossman');
+INSERT INTO authors (id, name) VALUES (2, 'Douglas Adams');
+
+INSERT INTO character_books (id, book_id, character_id) VALUES (1, 1, 1);
+INSERT INTO character_books (id, book_id, character_id) VALUES (2, 1, 2);
+INSERT INTO character_books (id, book_id, character_id) VALUES (3, 1, 4);
+INSERT INTO character_books (id, book_id, character_id) VALUES (4, 2, 1);
+INSERT INTO character_books (id, book_id, character_id) VALUES (5, 3, 1);
+INSERT INTO character_books (id, book_id, character_id) VALUES (6, 3, 2);
+INSERT INTO character_books (id, book_id, character_id) VALUES (7, 4, 5);
+INSERT INTO character_books (id, book_id, character_id) VALUES (8, 4, 6);
+INSERT INTO character_books (id, book_id, character_id) VALUES (9, 4, 7);
+INSERT INTO character_books (id, book_id, character_id) VALUES (10, 4, 8);
+INSERT INTO character_books (id, book_id, character_id) VALUES (11, 5, 5);
+INSERT INTO character_books (id, book_id, character_id) VALUES (12, 5, 6);
+INSERT INTO character_books (id, book_id, character_id) VALUES (13, 6, 5);
+INSERT INTO character_books (id, book_id, character_id) VALUES (14, 6, 6);
+INSERT INTO character_books (id, book_id, character_id) VALUES (15, 7, 5);
+INSERT INTO character_books (id, book_id, character_id) VALUES (16, 7, 6);
