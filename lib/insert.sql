@@ -21,7 +21,7 @@ INSERT INTO characters (id, name, species, motto, series_id, author_id) VALUES
   (1, 'Quentin Coldwater', 'human', '', 1, 1);
   (2, 'Alice Quinn', 'human', '', 1, 1);
   (3, 'Reynard the Fox', 'demi-god', '', 1, 1);
-  (4, 'Humbledrum', 'bear', '', 1, 1);
+  (4, 'Humbledrum', 'bear', 'I am a very. Respectful. Bear.', 1, 1);
   (5, 'Arthur Dent', 'human', '', 2, 2);
   (6, 'Ford Prefect', 'betelgeusian', '', 2, 2);
   (7, 'Frankie', 'mouse', '', 2, 2);
