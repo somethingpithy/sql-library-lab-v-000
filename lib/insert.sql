@@ -7,34 +7,35 @@ inserting
   has 16 joins in character_books (FAILED - 6)
 
 INSERT INTO series (id, title, author_id, subgenre_id) VALUES
-  (1, );
-  (2, );
+  (1, 'The Magician\'s Trilogy', 1, );
+  (2, 'The Hitchhiker\'s Guide to the Galaxy', 2, );
 
 INSERT INTO books (id, title, year, series_id) VALUES
   (1, );
   (2, );
   (3, );
-  (4, );
-  (5, );
-  (6, );
+  (4, 'The Hitchhiker\'s Guide to the Galaxy', 1979, 2);
+  (5, 'The Restaurant at the End of the Universe', 1980, 2);
+  (6, 'Life, the Universe and Everything', 1982, 2);
 
-INSERT INTO characters (name, species, motto, series_id, author_id) VALUES
+INSERT INTO characters (id, name, species, motto, series_id, author_id) VALUES
   (1, );
   (2, );
   (3, );
   (4, );
-  (5, );
-  (6, );
-  (7, );
-  (8, );
+  (5, 'Arthur Dent', 'human', '', 2, 2);
+  (6, 'Ford Prefect', 'betelgeusian', '', 2, 2);
+  (7, 'Frankie', 'mouse', '', 2, 2);
+  (8, 'Benjy', 'mouse', '', 2 , 2);
 
 INSERT INTO subgenres (id, name) VALUES
   (1, );
   (2, );
 
 INSERT INTO authors (id, name) VALUES
-  (1, );
-  (2, );
+  (1, 'Lev Grossman');
+  (2, 'Douglas Adams');
+
 
 INSERT INTO character_books (id, book_id, character_id) VALUES
   (1, );
