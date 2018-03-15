@@ -19,8 +19,8 @@ INSERT INTO books (id, title, year, series_id) VALUES
 
 INSERT INTO characters (id, name, species, motto, series_id, author_id) VALUES
   (1, 'Quentin Coldwater', 'human', 'I got my heart\'s desire, and there my troubles began.', 1, 1);
-  (2, 'Alice Quinn', 'human', '', 1, 1);
-  (3, 'Plum Purchas', 'human', '', 1, 1);
+  (2, 'Alice Quinn', 'human', NULL, 1, 1);
+  (3, 'Plum Purchas', 'human', NULL, 1, 1);
   (4, 'Humbledrum', 'bear', 'I am a very. Respectful. Bear.', 1, 1);
   (5, 'Arthur Dent', 'human', 'I really wish I\'d listened to what my mother told me when I was young.', 2, 2);
   (6, 'Ford Prefect', 'betelgeusian', 'I am therefore excused from saving Universes.', 2, 2);
