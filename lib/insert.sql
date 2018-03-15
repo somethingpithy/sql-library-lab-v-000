@@ -28,8 +28,8 @@ INSERT INTO characters (id, name, species, motto, series_id, author_id) VALUES
   (8, 'Benjy', 'mouse', NULL, 2 , 2);
 
 INSERT INTO subgenres (id, name) VALUES
-  (1, );
-  (2, );
+  (1, 'fantasy');
+  (2, 'comic science fiction');
 
 INSERT INTO authors (id, name) VALUES
   (1, 'Lev Grossman');
