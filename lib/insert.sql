@@ -23,7 +23,7 @@ INSERT INTO characters (id, name, species, motto, series_id, author_id) VALUES
   (3, 'Plum Purchas', 'human', '', 1, 1);
   (4, 'Humbledrum', 'bear', 'I am a very. Respectful. Bear.', 1, 1);
   (5, 'Arthur Dent', 'human', 'I really wish I\'d listened to what my mother told me when I was young.', 2, 2);
-  (6, 'Ford Prefect', 'betelgeusian', '', 2, 2);
+  (6, 'Ford Prefect', 'betelgeusian', 'I am therefore excused from saving Universes.', 2, 2);
   (7, 'Frankie', 'mouse', '', 2, 2);
   (8, 'Benjy', 'mouse', '', 2 , 2);
 
