@@ -1,6 +1,6 @@
 INSERT INTO series (id, title, author_id, subgenre_id) VALUES
-  (1, 'The Magician\'s Trilogy', 1, ),
-  (2, 'The Hitchhiker\'s Guide to the Galaxy', 2, );
+  (1, 'The Magician\'s Trilogy', 1, 1),
+  (2, 'The Hitchhiker\'s Guide to the Galaxy', 2, 2);
 
 INSERT INTO books (id, title, year, series_id) VALUES
   (1, 'The Magicians', 2009, 1),
