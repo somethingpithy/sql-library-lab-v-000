@@ -28,7 +28,6 @@ INSERT INTO authors (id, name) VALUES
   (1, 'Lev Grossman'),
   (2, 'Douglas Adams');
 
-
 INSERT INTO character_books (id, book_id, character_id) VALUES
   (1, 1, 1),
   (2, 1, 2),
