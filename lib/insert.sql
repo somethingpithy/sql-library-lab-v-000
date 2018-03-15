@@ -18,7 +18,7 @@ INSERT INTO books (id, title, year, series_id) VALUES
   (6, 'Life, the Universe and Everything', 1982, 2);
 
 INSERT INTO characters (id, name, species, motto, series_id, author_id) VALUES
-  (1, 'Quentin Coldwater', 'human', '', 1, 1);
+  (1, 'Quentin Coldwater', 'human', 'I got my heart's desire, and there my troubles began.', 1, 1);
   (2, 'Alice Quinn', 'human', '', 1, 1);
   (3, 'Plum Purchas', 'human', '', 1, 1);
   (4, 'Humbledrum', 'bear', 'I am a very. Respectful. Bear.', 1, 1);
