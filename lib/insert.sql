@@ -1,5 +1,4 @@
 inserting
-  has 2 series (FAILED - 1)
   has 6 books (FAILED - 2)
   has 8 characters (FAILED - 3)
   has 2 subgenres (FAILED - 4)
@@ -11,9 +10,9 @@ INSERT INTO series (id, title, author_id, subgenre_id) VALUES
   (2, 'The Hitchhiker\'s Guide to the Galaxy', 2, );
 
 INSERT INTO books (id, title, year, series_id) VALUES
-  (1, );
-  (2, );
-  (3, );
+  (1, 'The Magicians', 2009, 1);
+  (2, 'The Magician King', 2011, 1);
+  (3, 'Thje Magician\'s Land', 2014, 1);
   (4, 'The Hitchhiker\'s Guide to the Galaxy', 1979, 2);
   (5, 'The Restaurant at the End of the Universe', 1980, 2);
   (6, 'Life, the Universe and Everything', 1982, 2);
